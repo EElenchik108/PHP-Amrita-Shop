@@ -1,0 +1,201 @@
+
+body{
+    min-width: 589px !important;
+}
+.menu {
+    // min-width: 540px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    padding: 0 20px;    
+}
+
+#menu {
+    min-width: 589px !important;
+    position: relative;
+    z-index: 4;
+    position: fixed;
+    background: rgba(27, 27, 27, 0.6);    
+    height: 60px;
+    width: 100%;    
+    color: #B2CACF;
+    font-family: 'Raleway', sans-serif;
+    #containerCategory{        
+        display: none;
+        // transition: .55s display;        
+        position: absolute;
+        text-transform: uppercase;  
+        z-index: 5;
+        top: 60px;
+        background: rgba(27, 27, 27, 0.6);    
+        // height: 237px;        
+        color: #B2CACF;    
+        font-family: 'Raleway', sans-serif;  
+        div{
+            margin: 12px 9px;
+        }                
+    }
+    
+}
+
+.mainMenu5{
+    height: 100%;   
+    margin-top: 41px;
+    &:hover>#containerCategory{            
+        display: block !important;
+    }
+}
+
+
+.logo{
+    color: #ffffff;
+    font-size: 150%;
+    // font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.6em;
+    letter-spacing: 0.6em;
+}
+.mainMenu>div{
+    margin-right: -21%;
+    // margin:18px 10px;
+    color: #B2CACF;
+}
+.aMain:visited, .aMain:active, .aMain:link, .aMain1:visited, .aMain1:active, .aMain1:link{
+     color: #B2CACF;
+}
+
+.aMain:hover, .mainMenu>div:hover, .aMain1:hover{
+    color: #ffffff;
+    i::after{
+        color: #ffffff;
+    }
+}
+.aMain5{
+    margin-top: 20px;
+}
+
+.ico{
+    font-size: 0.5em;         
+}
+
+.mainMenu{
+    font-weight: 700;
+    font-size: 1.2em;
+    height: 100%;    
+}
+
+.extraMenu{
+    a{
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    a:visited, a:active, a:link{
+        color: #B2CACF;
+    }
+    button, button:active, button:focus{
+        background-color: transparent;
+        outline: none !important;
+        border: none; outline: none;
+        color: #B2CACF;
+    }    
+    button{
+        margin: 6px !important;
+        i{
+            font-size: 1.2em;
+        }        
+    }
+    .icoMenu:hover button{
+        color: #ffffff;
+    }
+    a:hover, .activeLink{
+        color: #ffffff;
+        i::after{
+            color: #ffffff;
+        }
+    }
+    
+    .basket{
+        display: flex;
+        flex-direction: row;
+        .count-product{
+            margin-top: 13%;
+          font-size: 1.3em;  
+        }
+                
+    }
+    .basket:hover{
+        display: flex;
+        flex-direction: row;
+        color: #ffffff;
+    }
+    .search{
+        margin-left: 4%;
+    }
+    .cabinet{
+        margin-right: 4%;
+        width: 23px;
+        font-size: 1.2em;
+    }
+    
+}
+
+.activeLink{
+    a{
+       color: #ffffff !important; 
+    } 
+}
+a.activeLink{
+    color: #ffffff !important;   
+}
+
+.searchForm{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 10px;    
+    input[name=search]{
+        width: 315px;
+        height: 30px;  
+        
+        margin-right: 20px;
+        border: none;
+        border-bottom: 1px solid #808080;
+    }
+    .butSearch{
+        background: inherit;
+        border: none;
+        color: #808080;
+        font-size: 1.5em;
+        
+    }
+    
+}
+.modal-content {
+    width: 383px !important;
+    border: none;
+}
+
+.modal-dialog {    
+    width: 383px;
+    margin: 0;
+    margin: 11% auto;    
+}
+
+.modalCart{
+    width: 657px !important;
+}
+
+.modalCartCont{
+    margin: 0;
+    margin: 10% auto;
+    width: 657px !important;
+}
+
+.dropdown-menu{
+    padding: 0.5rem 7px;
+    a:hover{
+        color: #515151;
+    }
+}

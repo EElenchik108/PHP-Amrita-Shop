@@ -1,0 +1,63 @@
+.containerForm{
+    padding-top: 6%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    max-width: 600px;
+    .formLogin{
+        margin-top: 5%;
+    }
+    .resetPass{        
+        color: #555555;
+        font-size: 93%;
+        font-weight: 400;
+    }
+}
+.but{
+    width: 73%;
+    background: #000000;
+    color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    font-size: 107%;
+    font-weight: 400;
+    border: none;
+    border: 1px solid #000000;
+}
+.but:hover{
+    transition-property: background-color;    
+    transition-duration: .4s;
+    background-color: #c9c9c9;
+    border: 1px solid #c9c9c9;
+}
+
+.butCheck{
+    display: inline-block;
+    padding: 16px 12px;
+    width: 150px;
+    height: 46px;
+}
+.resPass{
+    margin-top: 4% !important;
+}
+.contLog{
+    padding-top: 16%;
+    margin: 0 auto;
+    margin-bottom: 10%;
+    height: 53vh;
+}
+
+.contCheckout{
+    padding: 10% 6% ;
+}
+
+.contContent{
+    margin: 5% 0;
+}
+
+.modal-content{
+    width: 108%;
+}
+
+.fa-trash:before {
+    font-size: 1.5em;   
+}

@@ -1,0 +1,129 @@
+
+.containerShop{
+    margin: 2% 5% 5%;    
+    .menuShop{        
+        float: left;
+        width: 29%;
+        div{                       
+            margin-bottom: 5%;
+            padding: 4%;
+            border-left: 4px solid transparent;
+        }
+        a{        
+            color: #555555;
+            font-size: 105%; 
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;                
+        }
+        a:hover{
+            color: #B4C9D9;
+        }
+        a:hover div{        
+            border-left: 4px solid #B4C9D9;
+        }
+        .transition {
+            transition: 0.5s;
+          }  
+    }
+    .productShop{        
+        margin: 0;        
+        float: right;
+        width: 69%;        
+        .productA{
+            width: 29%;            
+        }
+    }
+}
+
+.paginationProduct{    
+    margin: -2% 6% 6% 34%;
+    .page-link{
+        color: #86A9B9;
+        
+    }
+    .page-item.active .page-link{
+        color:#ffffff;
+        background: #86A9B9;
+        border-color:#86A9B9;
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }    
+}
+
+.filters{    
+    
+    text-align: right;
+    // margin: 6% 6% -3% 34%;
+    margin-top: 6%;
+    margin-right: 6%;
+    margin-left: 34%;
+    font-size: 86%; 
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: #000000;
+    form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    select{
+        color: #555555;        
+        border: 1px solid #a6a6a6;
+        border-radius: 3px;        
+        
+        option:focus{
+            // background: #86A9B9;
+        }
+        
+    }
+    .filtersSelect option {
+        height: 40px;
+        
+        // text-indent: 5%;
+        //background: #86A9B9;
+        // margin-bottom: 5px;
+        // padding:10px;
+        //line-height: 1.2em;
+    }
+    input[type="number"]{
+        width: 105px;
+        height: 26px;
+        color: #555555;
+        padding: 1.1%;
+        border: 1px solid #a6a6a6;
+        border-radius: 3px; 
+
+    }
+    .buttonPrice{
+        padding: 5px 10px;
+        color: #ffffff;
+        background: #000000;
+        font-size: 81%; 
+        font-weight: 600;        
+    }
+    .buttonPrice:hover{
+        transition-property: background-color;    
+        transition-duration: .4s;
+        background-color: #c9c9c9;
+    }
+
+}
+
+.activeLinkCat{
+    color: #B4C9D9 !important;
+}
+
+a.activeLinkCat div{        
+    border-left: 4px solid #B4C9D9 !important;
+}
+
+.filtersSelect{
+    height: 26px;
+}

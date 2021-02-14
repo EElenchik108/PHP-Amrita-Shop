@@ -1,0 +1,126 @@
+.footer{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background: #B4C9D9;
+    padding: 4% 9%;
+    vertical-align: top;
+    margin-bottom: 0px;
+    margin-top: -5px;     
+    .follow{
+        display: inline-block;
+        float: left;
+        height: 100%;        
+        a{
+            text-rendering: optimizeLegibility;
+            margin-right: 5px;
+        }
+        .fol{
+            position: relative;
+            width: 50px;
+            height: 50px; 
+        }
+        a:visited, a {            
+            transition: color .1s linear;            
+        }
+        p{
+            margin-bottom: 12%;
+            font-size: 120%; 
+            font-weight: 400;
+            letter-spacing: 0.3em;
+            color: #555555;
+        }
+        i::before{
+            position: absolute;
+            font-size: 183%;
+            font-weight: 300;            
+            color:  #555555;
+        }
+        i.icoFollow::before{
+            margin-left:  12px;
+            margin-top:  -1px;
+        }
+        i.icoFollow1::before{
+            margin-left:  15px;
+            // margin-top:  -2px;
+        }
+        i.icoFollow2::before{
+            margin-left:  14px;           
+        }
+        i.icoFollow3::before{
+            padding-left:  12px;
+            margin-top:  -1px;
+        }
+        i.icoFollow4::before{
+            margin-left:  10px;
+            margin-top:  -1px;
+        }
+    }
+    .connection div{
+        width: 30%;
+        height: 50%;
+        border: 2px solid #555555;
+        border-radius: 50%;            
+        align-content: left;        
+    }
+    .connection div:hover{
+        transition-property: border;    
+        transition-duration: .4s;
+        border: 2px solid #ffffff;}                    
+    .connection div:hover i::before{
+        transition-property: color;    
+        transition-duration: .4s;
+            color: #ffffff;        
+    }
+}
+.i-b{
+    display: inline-block;
+}
+.subscription{   
+    color: #555555;
+    float: right;
+    width: 50%;  
+    height: 100%;
+    a{        
+        color: #555555;
+        margin-right: 7%;        
+        font-size: 114%; 
+        font-weight: 600;
+        letter-spacing: 0.2em;
+    }
+    button:hover{
+        transition-property: background-color;    
+        transition-duration: .4s;
+        background-color: #c9c9c9;
+        border: 1px solid #c9c9c9;
+    }
+    .links2{
+        margin-bottom: 4%;       
+    }    
+    p{
+        font-size: 75%; 
+        font-weight: 600;
+    }
+    input {
+        display: block;
+        width: 100%;
+        height: 35px;
+        margin-bottom: 3%;
+    }
+    button{
+        margin-bottom: 4%;        
+        color: #ffffff;
+        height: 35px;
+        width: 100%;
+        background: #000000;
+        border: 1px solid #000000;
+        font-size: 75%; 
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        
+    }
+    input::placeholder{        
+        color: #7aa0bc;
+        padding-left: 2%;
+    }
+}

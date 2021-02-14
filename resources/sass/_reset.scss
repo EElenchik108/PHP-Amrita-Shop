@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+body {
+   background-color: #ffffff;
+   height: 100%;
+   line-height: 1;
+
+   font-family: 'Epilogue', sans-serif;
+//    font-family: 'Great Vibes', cursive;
+
+   font-weight: 300;
+}
+ol, ul {
+   list-style: none;
+}
+blockquote, q {
+   quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+   content: '';
+   content: none;
+}
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+a, a:hover {
+   text-decoration:none;
+}
+
+menu {
+   list-style-type: none;
+}

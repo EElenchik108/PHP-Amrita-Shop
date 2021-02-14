@@ -1,0 +1,40 @@
+.containerAbout{
+    padding: 5%;
+}
+
+.imgAbout{
+    width: 39%;
+    margin: 0% 30%;
+}
+
+.cotAbout{
+    display: flex;
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+    hr{
+        margin-bottom: 6%;       
+    }
+    p{
+        text-indent: 5em;
+        margin: 2% 0;
+        line-height: 1.7em;
+        text-align: justify;
+    }
+    form{
+        width: 100%;
+        padding: 3% 5%;
+
+    }
+}
+
+.butAbout{
+    width: 30%;
+    padding: 1.5% 3%;
+}
+.maps{
+    margin-top: -7%;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}

@@ -1,0 +1,45 @@
+ .containerJournal{
+     padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+     margin: 0% 5% 5%;  
+
+     .containerArticle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 5% 9% 5%;
+
+        .article{
+            width: 32%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 4%;
+            
+            .artName{
+                margin: 4% 5%;
+                text-align: center;
+                text-transform:uppercase;
+                letter-spacing: 0.3em;
+                font-size: 1.2em;
+                color: #5f5f5f;
+            }
+            .artInfo{
+                display: flex;
+                flex-direction: row;
+                font-size: 0.7em;
+                justify-content: space-between;
+            }
+            img{
+                width: 100%;
+            }
+            a{
+                color: black;
+            }
+            .readMore{
+                color: #b1b1b1;
+            }
+        } 
+     }
+ }

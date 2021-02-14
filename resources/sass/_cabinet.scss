@@ -1,0 +1,90 @@
+.containerL{
+        margin: 3% 6% 2%;
+        display: inline-block;
+        width: 88%;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: nowrap;
+    .menuShop{
+        float: left;
+        width: 25%;
+        div{                       
+            margin-bottom: 5%;
+            padding: 4%;
+            border-left: 4px solid transparent;
+        }
+        a{        
+            color: #555555;
+            font-size: 105%; 
+            font-weight: 400;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;                
+        }
+        a:hover{
+            color: #B4C9D9;
+        }
+        a:hover div{        
+            border-left: 4px solid #B4C9D9;
+        }
+        .transition {
+            transition: 0.5s;
+          } 
+    }
+    #containerCategory{
+        
+        
+    }
+    .containerLikes{
+        float: right;
+        width: 74%;        
+        
+        a.prodL{
+            color: #555555;
+        }
+        .prodLike{
+            padding: 1%;
+        }
+        .pLike:hover{
+            box-shadow:1px 0px 12px 4px rgba(227,227,227,0.53);
+            -webkit-box-shadow:1px 0px 12px 4px rgba(227,227,227,0.53);
+            -moz-box-shadow:1px 0px 12px 4px rgba(227,227,227,0.53);
+            
+        }
+        .prodLikes{
+            
+            width: 100%;
+            // margin-bottom: 1%;
+            
+            position: relative;
+        .like{
+            position: absolute;
+            top: 9%;
+            right: 3%;
+        }
+        img{
+            width: 17%;
+            float: left;
+        }
+
+    }
+    h5, p.orderP{
+        margin-left: 20%;
+    }    
+}  
+}
+
+.order{
+    width: 22%;
+    position: absolute;
+    top: 9%;
+    right: 3%;
+       
+}
+img.orderImg{
+    width: 16% !important;
+}
+
+.orderL{
+  margin-bottom: 1%;
+  border: 1px solid #d5e1ea;   
+}
