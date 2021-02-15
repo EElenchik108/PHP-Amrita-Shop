@@ -106,9 +106,7 @@ class MainController extends Controller
         $likes = Like::all(); 
         $product = Product::firstWhere('slug', $slug);
         $images = Image::where('product_id', $product->id)->get();
-        // dd($images);
         $relatedProductsAll = Product::orderBy('created_at', 'DESC')->paginate(4);
-        // dd($relatedProductsAll);
         $reviewsProduct = Review::orderBy('created_at', 'DESC')->where('product_id', $product->id)->get();
         if(isset($product->category->id)){
             $relatedProducts = Product::where('category_id', $product->category->id)->paginate(4);
@@ -146,7 +144,6 @@ class MainController extends Controller
         $categories = Category::all();
         $search = $request->get('search');
         $products = Product::where('name', 'like', '%' .$search.'%')->paginate(24);
-        // dd($product);
         return view('main.search', compact('categories', 'products'));
     }
 
@@ -155,7 +152,6 @@ class MainController extends Controller
         $categories = Category::all();
         $likes = Like::where('user_id', \Auth::user()->id)->get(); 
         $orders = OrderItems::all(); 
-        // dd($likes[1]->product->id);
         return view('main.cabinet', compact('categories', 'likes', 'orders'));
     }
     public function bought()
@@ -163,7 +159,6 @@ class MainController extends Controller
 
         $categories = Category::all();         
         $orders = Order::where('user_id', \Auth::user()->id)->get();
-        // dd($orders[1]->products[0]->name);
         return view('main.bought', compact('categories', 'orders'));
     }
 }
